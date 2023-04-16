@@ -120,7 +120,11 @@
                 $target = $('#' + linkHref);
 
                 if ($target.length) {
+<<<<<<< HEAD
                     topPos = $target.offset().top;
+=======
+                    topPos = $target.offset().top-100;
+>>>>>>> ce03a85a1472a7ba0313eb61802bdc45be0ada52
 
                     self.sections[linkHref] = Math.round(topPos);
                 }
